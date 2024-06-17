@@ -1,0 +1,46 @@
+.container {
+    width: 1336px;
+    height: 70px;
+    margin: 0 auto;
+    background-color: lightblue
+}
+
+.test-box: {
+    width: 760 px;
+    margin: 0 auto;
+    background-colour: lightseagreen;
+    text-aligned: center;
+
+    .block: {
+        width: 310 px;
+        height: 430 px;
+        border: 1px solid #000
+    }
+
+    .block-image: {
+        width: 100%;
+    }
+
+    .row1: {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 908 px;
+        align-content: space-between;
+    }
+
+    .social-circle: {
+        width: 36 px;
+        height: 36 px;
+        background-color: #f2f4f7;
+        border-radius: 100 px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-icons: {
+        display: flex;
+    }
+}
+}
